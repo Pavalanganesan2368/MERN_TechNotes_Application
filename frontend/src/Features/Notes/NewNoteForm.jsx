@@ -34,7 +34,7 @@ const NewNoteForm = ({ users }) => {
     e.preventDefault();
     if (canSave) {
       const result = await addNewNote({ user: userId, title, text });
-      console.log(result);
+    //   console.log(result);
     }
   };
 
